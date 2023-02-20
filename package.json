@@ -1,0 +1,25 @@
+{
+  "name": "react-music-artists",
+  "version": "1.0.0",
+  "description": "react music artists",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mark-Halstead/react-music-artists.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mark-Halstead/react-music-artists/issues"
+  },
+  "homepage": "https://github.com/Mark-Halstead/react-music-artists#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite": "^4.1.3"
+  }
+}
