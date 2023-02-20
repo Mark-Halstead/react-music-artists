@@ -1,10 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from "./App"
+import React, { useState } from 'react';
+import Card from "./Card";
 
-const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(
-    <>
-        <App/>
-    </>
-)
+
+
+const App = () => {
+    return (
+        <>
+            <h1 className="heading">My Favourite Musician</h1>
+            <Card />
+        </>
+    )
+}
+
+export default App
