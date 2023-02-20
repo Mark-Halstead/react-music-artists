@@ -1,9 +1,13 @@
-import React from "react";
+import React from 'react';
 
-function Detail(props) {
-  return (
-  <p className="info">boop</p>
-  );
+
+const Information = () => {
+    return (
+            <div className="bottom">
+                <p className="info">The best musician ever</p>
+            </div>
+    )
 }
 
-export default Detail;
+
+export default Information

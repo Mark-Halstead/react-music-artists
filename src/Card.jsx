@@ -1,15 +1,17 @@
 import React from "react";
-import Detail from "./Detail";
+import Music from "./Music";
+import Information from "./Detail";
+import Image from "./Image";
 
-function Card(props) {
+function Card() {
   return (
     <div className="card">
       <div className="top">
-        <h2 className="name">boop</h2>
+        <h2 className="name">Hans Zimmer</h2>
+        <Image />
       </div>
-      <div className="bottom">
-        <Detail />
-      </div>
+     <Music />
+     <Information />
     </div>
   );
 }
