@@ -2,6 +2,7 @@ import React from "react";
 import Music from "./Music";
 import Information from "./Detail";
 import Image from "./Image";
+import Button from "./Like";
 
 function Card() {
   return (
@@ -12,6 +13,7 @@ function Card() {
       </div>
      <Music />
      <Information />
+     <Button />
     </div>
   );
 }
